@@ -1,0 +1,35 @@
+/* Reset browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    
+    height: 65px;
+    background-color: blue;
+}
+
+.header-top {
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-bottom {
+    width: 100%;
+    height: 65px;
+    background-color: red;
+}
