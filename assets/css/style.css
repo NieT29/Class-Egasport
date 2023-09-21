@@ -9,7 +9,34 @@
 .container {
     width: 1200px;
     margin: auto;
-    height: 65px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col {
+    padding: 0 10px;
+}
+
+/* thong so col */
+
+.col-3 {
+    width: calc(100% / 3);
+}
+
+.col-4 {
+    width: calc(100% / 4);
+}
+
+.col-5 {
+    width: calc(100% / 5);
+}
+
+.col-6 {
+    width: calc(100% / 6);
 }
 
 /* Header */
@@ -156,6 +183,21 @@
     font-size: 12px;
     right: -9px;
     top: -10px;
+}
+
+/* slider main */
+
+/* service main */
+
+.service-main .container {
+    padding: 40px 0;
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+    margin-bottom: 15px;
 }
 
 
