@@ -2,8 +2,8 @@ $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
     loop:true, // vong lap slider
     margin:10, // khonag cach giua cac phan tu
-    nav:false, // thanh dieu huong 
-    dots:false, // nut dieu huong
+    nav:true, // thanh dieu huong 
+    dots:true, // nut dieu huong
     autoplay:true, //tu dong chuyen slider
     autoplayTimeout:5000, //ms
     responsive:{

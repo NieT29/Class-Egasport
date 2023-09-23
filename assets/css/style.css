@@ -1,3 +1,162 @@
+/* import fonts family */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-BlackItalic.eot');
+    src: url('../fonts/Roboto/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-BlackItalic.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-BlackItalic.svg#Roboto-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-BoldItalic.eot');
+    src: url('../fonts/Roboto/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-BoldItalic.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-BoldItalic.svg#Roboto-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-MediumItalic.eot');
+    src: url('../fonts/Roboto/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-MediumItalic.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-MediumItalic.svg#Roboto-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Medium.eot');
+    src: url('../fonts/Roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Black.eot');
+    src: url('../fonts/Roboto/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Black.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-Black.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-Black.svg#Roboto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Bold.eot');
+    src: url('../fonts/Roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Thin.eot');
+    src: url('../fonts/Roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-Thin.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Thin.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-Thin.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-Thin.svg#Roboto-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-ThinItalic.eot');
+    src: url('../fonts/Roboto/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-ThinItalic.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-ThinItalic.svg#Roboto-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-Italic.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Italic.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-Italic.svg#Roboto-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-LightItalic.eot');
+    src: url('../fonts/Roboto/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-LightItalic.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-LightItalic.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-LightItalic.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-LightItalic.svg#Roboto-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.eot');
+    src: url('../fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Light.eot');
+    src: url('../fonts/Roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-Light.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Light.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-Light.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-Light.svg#Roboto-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 /* Reset browser */
 * {
     padding: 0;
@@ -22,6 +181,9 @@
 }
 
 /* thong so col */
+.col-2 {
+    width: calc(100% / 2);
+}
 
 .col-3 {
     width: calc(100% / 3);
@@ -37,6 +199,14 @@
 
 .col-6 {
     width: calc(100% / 6);
+}
+
+/* content lam vi du */
+.content {
+    width: 100%;
+    height: 300px;
+    background-color: pink;
+    margin-bottom: 15px;
 }
 
 /* Header */
@@ -71,6 +241,13 @@
     justify-content: space-between;
 }
 
+.header-bottom {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+
 /* Logo menu */
 
 .header-bottom .logo {
@@ -95,6 +272,8 @@
 .header-bottom .menu-main ul li {
     list-style: none;
     margin-right: 25px;
+    position: relative;
+    padding: 20px 0;
 }
 
 .header-bottom .menu-main ul li:last-child {
@@ -104,6 +283,59 @@
 .header-bottom .menu-main ul li a {
     text-decoration: none;
     color: #111;
+}
+
+.header-bottom .menu-main ul li a i {
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+
+
+/* sub menu-c1 */
+.menu-c1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.menu-main .menu-c1 ul {
+    display: block;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+}
+
+.menu-main .menu-c1 ul li {
+    padding: 8px 20px;
+    width: 100%;
+    position: relative;
+}
+
+.menu-main .menu-c1 ul li a {
+    width: 100%;
+    font-size: 14px;
+}
+
+.menu-main .menu-c1 ul li a:hover {
+    color: #2f90ed;
+}
+
+.menu-main ul li:hover > .menu-c1 {
+    display: block;
+}
+
+/* sub menu-c2 */
+.menu-c2 {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    display: none;
+}
+
+.menu-c1 ul li:hover > .menu-c2 {
+    display: block;
 }
 
 /* Button menu*/
@@ -186,6 +418,75 @@
 }
 
 /* slider main */
+.slider-main .owl-nav button {
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(0, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: #ebebeb !important;
+    border-radius: 50% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-main .owl-nav .owl-prev {
+    left: 20px;
+}
+
+.slider-main .owl-nav .owl-prev span {
+    font-size: 35px;
+    position: relative;
+    left: -1px;
+    top: -3px;
+}
+
+.slider-main .owl-nav .owl-prev:hover span{
+    color: #000;
+}
+
+.slider-main .owl-nav .owl-prev:hover {
+    background-color: #fff !important;
+}
+
+.slider-main .owl-nav .owl-next {
+    right: 20px;
+    
+}
+
+.slider-main .owl-nav .owl-next span {
+    font-size: 35px;
+    position: relative;
+    left: -1px;
+    top: -3px;
+}
+
+.slider-main .owl-nav .owl-next:hover span{
+    color: #000;
+}
+
+.slider-main .owl-nav .owl-next:hover {
+    background-color: #fff !important;
+}
+
+.slider-main .owl-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider-main .owl-dots span {
+    width: 18px !important;
+    height: 5px !important;
+    margin-right: 3px !important;
+}
+
+.slider-main .owl-dots .active span {
+    background-color: #000 !important;
+}
 
 /* service main */
 
@@ -193,11 +494,30 @@
     padding: 40px 0;
 }
 
-.content {
+/* footer */
+.footer {
     width: 100%;
     height: 400px;
-    background-color: pink;
-    margin-bottom: 15px;
+    background-color: #0d276c;
 }
 
+/* Responsive */
+
+/* 1440px tro xuong -- Desktop */
+@media screen and (max-width: 1440px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* 1140px tro xuong -- table */
+@media screen and (max-width: 1140px) {
+
+}
+
+/* 768 tro xuong -- mobile */
+@media screen and (max-width: 768px) {
+    
+}
+    
 
